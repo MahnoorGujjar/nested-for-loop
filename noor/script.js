@@ -83,13 +83,122 @@
 
 
 
-// let firsName = ["BlueRay" , "Upchuck" , "Lojack", "Gizmo" , "Do-Rag"];
-// let lastName = ["Zzz", "Burp" , "Dogbone" , "Droop"]
+// let firstName = ["BlueRay" , "Upchuck" , "Lojack", "Gizmo" , "Do-Rag"];
+// let lastName = [" Zzz ", " Burp " , " Dogbone " , " Droop " , " john "]
 // let fullName = []
 
-// for (let i = 0 ; i < firsName.length ; i++){
+// for (let i = 0 ; i < firstName.length ; i++){
 //     for (let j = 0 ; j < lastName.length ; j++){
-//         fullName.push(firsName[i] + lastName[j])
+//         fullName.push(firstName[i] + lastName[j] + "<br>")
 //     }
-//     document.write(fullName[i], "<br>")
-}
+  
+// }
+// for (let k =0 ; k < fullName.length; k++){
+//     document.write(fullName[k]+ "<br>")
+// }
+
+// OUTPUT
+
+// BlueRay Zzz
+
+// BlueRay Burp
+
+// BlueRay Dogbone
+
+// BlueRay Droop
+
+// BlueRay john
+
+// Upchuck Zzz
+
+// Upchuck Burp
+
+// Upchuck Dogbone
+
+// Upchuck Droop...............
+
+
+                 //////////////................../////////////////...................../////////////////// 
+
+// JOIN METHOD 
+
+
+
+// let fruits = ["banana" , "apple" , "orange" , "cherry"]
+// document.write(fruits)
+
+//banana,apple,orange,cherry
+
+
+
+// let fruits = ["banana" , "apple" , "orange" , "cherry"]
+// document.write(fruits.join(" "))
+
+// banana apple orange cherry
+
+// COMMA WILL BE REMOVE BY JOIN METHOD
+
+
+
+                 //////////////................../////////////////...................../////////////////// 
+
+
+
+//  let items = ["concealer" , "foundation" , "compack" , " mascara" , "eyeshaddow" , "blush"] //6
+//  let price = [1800 , 3800 , 2500 , 1200 , 7000 , 2200]
+//  let discount = ['12%' , "18%"]
+
+//  for (let i = 0 ; i < items.length ; i ++){
+//     document.write(items[i] , "<br>")
+//  }
+ 
+//  for (let k = 0; k < price.length ; k++){
+//     document.write(price[k] , "<br>")
+//  }
+
+ // LOOP OUTPUT
+
+//  concealer
+// foundation
+// compack
+// mascara
+// eyeshaddow
+// blush
+// 1800
+// 3800
+// 2500
+// 1200
+// 7000
+// 2200
+
+
+//OUTPUT WITH DOCUMENT 
+
+
+// document.write('ITEMS' + ':' + ' PRICE <br>');
+// document.write("============ ")
+
+// document.write("<br>" ,items[0] + "   :   " + price[0])
+// document.write("<br>" ,items[1] + "   :   " + price[1])
+// document.write("<br>" ,items[2] + "   :   " + price[2])
+// document.write("<br>" ,items[3] + "   :   " + price[3])
+// document.write("<br>" ,items[4] + "   :   " + price[4])
+// document.write("<br>" ,items[5] + "   :   " + price[5])
+
+// document.write (" <br> TOTAL BILL " , 1800 + 3800+  2500 + 1200 + 7000 + 2200 )
+
+// document.write (" <br> TOTAL BILL " ,price[0] + price[1] + price[2] + price[3] + price[4] + price[5] )
+
+
+
+//OUTPUT 
+
+// ITEMS: PRICE
+// ============
+// concealer : 1800
+// foundation : 3800
+// compack : 2500
+// mascara : 1200
+// eyeshaddow : 7000
+// blush : 2200
+// TOTAL BILL 18500
